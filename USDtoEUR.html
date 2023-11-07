@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Währungsrechner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="menu.png" alt="">
+        Währungsrechner
+    </div>
+
+    <div class="input-container">
+        <img class="flag" src="usa.png">
+        <input value="100" id="usdField" type="number">
+        <span class="currency">USD</span>
+    </div>
+
+    <div class="container-center">
+        <a href="Index.html"><img src="arrows.png"></a>
+    </div>
+    
+    <div class="input-container">
+        <img class="flag" src="eu.png">
+        <input id="eur" type="text">
+        <span class="currency">EUR</span>
+    </div>
+    
+    <div class="container-center">
+        <button onclick="calcUsd()">Berechnen</button>
+    </div>
+
+</body>
+</html>

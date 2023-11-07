@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(46, 46, 46);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    color: white;
+  }
+  
+  div {
+    min-height: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .navbar {
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: rgba(109, 109, 109, 0.546);
+    box-sizing: border-box;
+  }
+  
+  .flag {
+    width: 60px;
+    position: absolute;
+    left: 50px;
+  }
+  
+  input {
+    height: 60px;
+    background-color: rgb(89, 89, 89);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 21px;
+    flex: 1;
+    padding-left: 100px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .input-container {
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    position: relative;
+  }
+  
+  .currency {
+    position: absolute;
+    right: 100px;
+    font-size: 14px;
+    color: cadetblue;
+    font-weight: 700;
+    bottom: 1;
+  }
+  
+  .container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button{
+    background-color: yellow;
+    padding: 0 32px;
+    height: 50px;
+    border: unset;
+    font-size: 34px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 0, 0.592);
+  }
+  
